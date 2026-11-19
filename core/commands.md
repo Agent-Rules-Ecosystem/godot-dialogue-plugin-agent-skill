@@ -1,9 +1,9 @@
-# ⚡ Comandos de Godot Dialogue Plugin Agent Skill (`godot-dialogue-plugin-agent-skill`)
+# Comandos — Godot 4 Dialogue Systems Agent Skill
 
 | Comando | Acción | Descripción |
 |---|---|---|
-| `$dialogue` | Bootstrap | Inicializa la skill de sistemas de diálogo para Godot. |
-| `$dialogue:audit` | Auditoría | Audita nodos de diálogo, árboles de decisión y localización. |
-| `$dialogue:build` | Generación | Generación de estructuras de conversación GDScript/C#. |
-| `$learnskill godot-dialogue-plugin-agent-skill [propuesta]` | Aprendizaje | Registrar propuesta de mejora específica para `godot-dialogue-plugin-agent-skill` en `overview/learning.md` |
-| `$revlearnskill` | Revisión | Clasificar e inspeccionar propuestas de aprendizaje acumuladas en `overview/learning.md` |
+| `$dialogue` | Bootstrap | Activa reglas de diálogos en Godot 4. |
+| `$dialogue:audit` | Auditoría | Detecta ramas huérfanas, mutaciones no registradas, señales sin desconectar y textos sin clave i18n. |
+| `$dialogue:i18n` | Localización | Verifica claves `tr()` / `.po` / `.csv` en líneas de diálogo. |
+
+> Los comandos de gobernanza (`$learnskill`, `$revlearnskill`, `$boot`, `$close`) pertenecen al core `*-agent-rules` del proyecto.

@@ -1,0 +1,7 @@
+---
+description: Godot 4 Dialogue Manager / Yarn Spinner integration, EventBus signals, story_flags mutations and .csv/.po localization. ($dialogue)
+globs: ["**/*.gd", "**/*.dialogue", "**/*.yarn"]
+alwaysApply: false
+---
+
+Read and follow `.skill/godot-dialogue-plugin-agent-skill/AGENTS.md` and `.skill/godot-dialogue-plugin-agent-skill/SKILL.md`.
